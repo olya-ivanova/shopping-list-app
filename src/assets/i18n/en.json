@@ -1,0 +1,8 @@
+{
+    "CREATE-NEW-USER": {
+      "HEADER": "Create a new user"
+    },
+    "HAVE-AN-ACCAUNT": {
+        "IS-ACCAUNT-EXISTING": "Already have an accaunt?"
+    }
+}

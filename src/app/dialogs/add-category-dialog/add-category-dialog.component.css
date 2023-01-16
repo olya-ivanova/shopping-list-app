@@ -1,0 +1,9 @@
+.category-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.example-chip-list {
+    width: 100%;
+}

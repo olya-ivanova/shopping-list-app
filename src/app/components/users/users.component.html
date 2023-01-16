@@ -1,0 +1,35 @@
+<div class="users-list-container">
+    <div class="users-amount">{{users.length}} user(s)</div>
+    <div class="users-list-content">
+        <div class="users-list-item-container" *ngFor="let user of users; let i = index;">
+            <div class="users-list-item-content" *ngIf="i + 1 === users.length" #lastList>
+                <div class="user-name">
+                    <img [src]="user.avatar"/>
+                    <p class="users-list-item-name">{{ user.name }}</p>
+                </div>
+                <div>
+                    <button mat-icon-button (click)="removeUser(user.id)">
+                        <mat-icon>delete</mat-icon>
+                    </button>
+                    <button mat-icon-button (click)="openEditUserDialog(user)">
+                        <mat-icon>edit</mat-icon>
+                    </button>
+                </div>
+            </div>
+            <div class="users-list-item-content" *ngIf="i + 1 != users.length">
+                <div class="user-name">
+                    <img [src]="user.avatar"/>
+                    <p class="users-list-item-name">{{ user.name }}</p>
+                </div>
+                <div>
+                    <button mat-icon-button (click)="removeUser(user.id)">
+                        <mat-icon>delete</mat-icon>
+                    </button>
+                    <button mat-icon-button (click)="openEditUserDialog(user)">
+                        <mat-icon>edit</mat-icon>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,391 @@
+{
+  "users": [],
+  "signup": [
+    {
+      "name": "Olya Ivanova",
+      "gender": "F",
+      "avatar": "\"\"",
+      "email": "olya@mail.com",
+      "password": "1234567",
+      "role": "user",
+      "id": 1
+    },
+    {
+      "name": "Jack Brown",
+      "gender": "M",
+      "avatar": "\"\"",
+      "email": "jb@gmail.com",
+      "password": "12",
+      "role": "user",
+      "id": 2
+    },
+    {
+      "name": "",
+      "gender": "",
+      "avatar": "",
+      "email": "",
+      "password": "1",
+      "role": "user",
+      "id": 3
+    },
+    {
+      "name": "",
+      "gender": "",
+      "avatar": "",
+      "email": "",
+      "password": "1",
+      "role": "user",
+      "id": 4
+    },
+    {
+      "name": "",
+      "gender": "",
+      "avatar": "",
+      "email": "",
+      "password": "1",
+      "role": "user",
+      "id": 5
+    },
+    {
+      "name": "",
+      "gender": "",
+      "avatar": "",
+      "email": "",
+      "password": "1",
+      "role": "user",
+      "id": 6
+    },
+    {
+      "name": "",
+      "gender": "",
+      "avatar": "",
+      "email": "",
+      "password": "1",
+      "role": "user",
+      "id": 7
+    },
+    {
+      "name": "",
+      "gender": "",
+      "avatar": "",
+      "email": "",
+      "password": "1",
+      "role": "user",
+      "id": 8
+    }
+  ],
+  "categories": [
+    {
+      "uniqueKey": "Drinks",
+      "nameEn": "Drinks",
+      "nameRu": "Напитки",
+      "image": "coffee",
+      "tags": "",
+      "id": 1
+    },
+    {
+      "uniqueKey": "Fruits",
+      "nameEn": "Fruits",
+      "nameRu": "Фрукты",
+      "image": "fruits",
+      "tags": "",
+      "id": 2
+    },
+    {
+      "uniqueKey": "milk_products",
+      "nameEn": "Milk products",
+      "nameRu": "Молочные продукты",
+      "image": "food",
+      "tags": "",
+      "id": 4
+    },
+    {
+      "uniqueKey": "test",
+      "nameEn": "test-refresh",
+      "nameRu": "тест",
+      "image": "food",
+      "tags": "",
+      "id": 5
+    },
+    {
+      "uniqueKey": "test",
+      "nameEn": "test",
+      "nameRu": "тест",
+      "image": "food",
+      "tags": "",
+      "id": 6
+    },
+    {
+      "uniqueKey": "test",
+      "nameEn": "test",
+      "nameRu": "тест",
+      "image": "food",
+      "tags": "",
+      "id": 7
+    },
+    {
+      "uniqueKey": "test",
+      "nameEn": "test",
+      "nameRu": "тест",
+      "image": "food",
+      "tags": "",
+      "id": 8
+    },
+    {
+      "uniqueKey": "test",
+      "nameEn": "test",
+      "nameRu": "тест",
+      "image": "food",
+      "tags": "",
+      "id": 9
+    },
+    {
+      "uniqueKey": "test",
+      "nameEn": "test",
+      "nameRu": "тест",
+      "image": "food",
+      "tags": "",
+      "id": 10
+    },
+    {
+      "uniqueKey": "test",
+      "nameEn": "test",
+      "nameRu": "тест",
+      "image": "food",
+      "tags": "",
+      "id": 11
+    },
+    {
+      "uniqueKey": "test",
+      "nameEn": "test",
+      "nameRu": "тест",
+      "image": "food",
+      "tags": "",
+      "id": 12
+    },
+    {
+      "uniqueKey": "test",
+      "nameEn": "test",
+      "nameRu": "тест",
+      "image": "food",
+      "tags": "",
+      "id": 13
+    },
+    {
+      "uniqueKey": "test",
+      "nameEn": "test",
+      "nameRu": "тест",
+      "image": "food",
+      "tags": "",
+      "id": 14
+    },
+    {
+      "uniqueKey": "test",
+      "nameEn": "test",
+      "nameRu": "тест",
+      "image": "food",
+      "tags": "",
+      "id": 15
+    },
+    {
+      "uniqueKey": "test",
+      "nameEn": "test",
+      "nameRu": "тест",
+      "image": "food",
+      "tags": "",
+      "id": 16
+    },
+    {
+      "uniqueKey": "test",
+      "nameEn": "test",
+      "nameRu": "тест",
+      "image": "food",
+      "tags": "",
+      "id": 17
+    },
+    {
+      "uniqueKey": "test",
+      "nameEn": "test",
+      "nameRu": "тест",
+      "image": "food",
+      "tags": "",
+      "id": 18
+    },
+    {
+      "uniqueKey": "test",
+      "nameEn": "test",
+      "nameRu": "тест",
+      "image": "food",
+      "tags": "",
+      "id": 19
+    },
+    {
+      "uniqueKey": "test",
+      "nameEn": "test",
+      "nameRu": "тест",
+      "image": "food",
+      "tags": "",
+      "id": 20
+    },
+    {
+      "uniqueKey": "test",
+      "nameEn": "test",
+      "nameRu": "тест",
+      "image": "food",
+      "tags": "",
+      "id": 21
+    },
+    {
+      "uniqueKey": "test",
+      "nameEn": "test",
+      "nameRu": "тест",
+      "image": "food",
+      "tags": "",
+      "id": 22
+    },
+    {
+      "uniqueKey": "test",
+      "nameEn": "test",
+      "nameRu": "тест",
+      "image": "food",
+      "tags": "",
+      "id": 23
+    },
+    {
+      "uniqueKey": "test",
+      "nameEn": "test",
+      "nameRu": "тест",
+      "image": "food",
+      "tags": "",
+      "id": 24
+    },
+    {
+      "uniqueKey": "test",
+      "nameEn": "test",
+      "nameRu": "тест",
+      "image": "food",
+      "tags": "",
+      "id": 25
+    },
+    {
+      "uniqueKey": "test",
+      "nameEn": "test",
+      "nameRu": "тест",
+      "image": "food",
+      "tags": "",
+      "id": 26
+    },
+    {
+      "uniqueKey": "test",
+      "nameEn": "test",
+      "nameRu": "тест",
+      "image": "food",
+      "tags": "",
+      "id": 27
+    },
+    {
+      "uniqueKey": "test",
+      "nameEn": "test",
+      "nameRu": "тест",
+      "image": "food",
+      "tags": "",
+      "id": 28
+    },
+    {
+      "uniqueKey": "test",
+      "nameEn": "test",
+      "nameRu": "тест",
+      "image": "food",
+      "tags": "",
+      "id": 29
+    },
+    {
+      "uniqueKey": "test",
+      "nameEn": "test",
+      "nameRu": "тест",
+      "image": "food",
+      "tags": "",
+      "id": 30
+    },
+    {
+      "uniqueKey": "test",
+      "nameEn": "test",
+      "nameRu": "тест",
+      "image": "food",
+      "tags": "",
+      "id": 31
+    },
+    {
+      "uniqueKey": "test",
+      "nameEn": "test",
+      "nameRu": "тест",
+      "image": "food",
+      "tags": "",
+      "id": 32
+    },
+    {
+      "uniqueKey": "test",
+      "nameEn": "test",
+      "nameRu": "тест",
+      "image": "food",
+      "tags": "",
+      "id": 33
+    },
+    {
+      "uniqueKey": "test",
+      "nameEn": "test",
+      "nameRu": "тест",
+      "image": "food",
+      "tags": "",
+      "id": 34
+    },
+    {
+      "uniqueKey": "test",
+      "nameEn": "test",
+      "nameRu": "тест",
+      "image": "food",
+      "tags": "",
+      "id": 35
+    },
+    {
+      "uniqueKey": "test",
+      "nameEn": "test",
+      "nameRu": "тест",
+      "image": "food",
+      "tags": "",
+      "id": 36
+    },
+    {
+      "uniqueKey": "test",
+      "nameEn": "test",
+      "nameRu": "тест",
+      "image": "food",
+      "tags": "",
+      "id": 37
+    },
+    {
+      "uniqueKey": "test",
+      "nameEn": "test",
+      "nameRu": "тест",
+      "image": "food",
+      "tags": "",
+      "id": 38
+    },
+    {
+      "uniqueKey": "test",
+      "nameEn": "test",
+      "nameRu": "тест",
+      "image": "food",
+      "tags": "",
+      "id": 39
+    },
+    {
+      "uniqueKey": "test-1",
+      "nameEn": "test-1",
+      "nameRu": "тест-1",
+      "image": "food",
+      "tags": "",
+      "id": 40
+    }
+  ]
+}

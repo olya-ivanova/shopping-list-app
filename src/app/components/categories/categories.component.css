@@ -1,0 +1,29 @@
+mat-expansion-panel-header {
+    width: 600px;
+}
+
+app-svg-icon {
+    padding-right: 16px;
+}
+
+.mat-expansion-panel-header-description {
+    flex-grow: 0;
+}
+
+.mat-mdc-form-field + .mat-mdc-form-field {
+    margin-left: 8px;
+}
+
+.categories-container {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+
+.add-button-container {
+    position: fixed;
+    right: 34px;
+    bottom: 34px;
+}

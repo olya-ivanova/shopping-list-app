@@ -1,0 +1,49 @@
+<div class="categories-container">
+    <div class="categories-content">
+        <mat-accordion *ngFor="let category of categories; let i = index;">
+            <mat-expansion-panel hideToggle *ngIf="i + 1 === categories.length" #theLastItem>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        <app-svg-icon name={{category.image}}></app-svg-icon>
+                        <p>{{ category.nameEn }}</p>
+                    </mat-panel-title>
+                    <mat-panel-description>
+                        <button mat-icon-button (click)="removeCategory(category.id)">
+                            <mat-icon>delete</mat-icon>
+                        </button>
+                        <button mat-icon-button (click)="openEditCategoryDialog(category)">
+                            <mat-icon>edit</mat-icon>
+                        </button>
+                    </mat-panel-description>
+                  </mat-expansion-panel-header>
+                  <p>Name (en) <span>{{category.nameEn}}</span></p>
+                  <p>Name (ru) <span>{{category.nameRu}}</span></p>
+                  <p>Tags <span>{{category.tags}}</span></p>
+            </mat-expansion-panel>
+            <mat-expansion-panel hideToggle *ngIf="i + 1 !== categories.length">
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        <app-svg-icon name={{category.image}}></app-svg-icon>
+                        <p>{{ category.nameEn }}</p>
+                    </mat-panel-title>
+                    <mat-panel-description>
+                        <button mat-icon-button (click)="removeCategory(category.id)">
+                            <mat-icon>delete</mat-icon>
+                        </button>
+                        <button mat-icon-button (click)="openEditCategoryDialog(category)">
+                            <mat-icon>edit</mat-icon>
+                        </button>
+                    </mat-panel-description>
+                  </mat-expansion-panel-header>
+                  <p>Name (en)<span>{{category.nameEn}}</span></p>
+                  <p>Name (ru)<span>{{category.nameRu}}</span></p>
+                  <p>Tags <span>{{category.tags}}</span></p>
+            </mat-expansion-panel>
+        </mat-accordion>
+    </div>
+    <div class="add-button-container">
+        <button mat-fab color="primary" (click)="openAddDialog()">
+            <mat-icon fontIcon="add"></mat-icon>
+        </button>
+    </div>
+</div>

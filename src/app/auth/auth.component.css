@@ -1,0 +1,60 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+mat-card-title {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 24px;
+}
+
+.card-container {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.card-content-container {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-content {
+    width: 100%;
+}
+
+.card-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 40px;
+    background-color: black;
+    position: absolute;
+    bottom: 24px;
+    right: 37%;
+    color: white;
+    border-radius: 6px;
+}
+
+.bottom-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 24px;
+}
